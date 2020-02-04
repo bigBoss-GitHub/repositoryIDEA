@@ -4,10 +4,7 @@ public class Dog {
     private String name;
     private Integer age;
 
-    /**
-     *
-     * @return
-     */
+
 
     @Override
     public String toString() {
