@@ -1,7 +1,7 @@
 package com.gaznkj.springboot.bean;
 
 /**
- *
+ *lll
  */
 public class Dog {
     private String name;
