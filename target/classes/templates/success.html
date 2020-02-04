@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>真好</title>
+</head>
+<script type="text/javascript" th:src="@{/webjars/jquery/3.3.1/jquery.js}"></script>
+<script>
+    function start() {
+        console.log("进来了")
+        $('#div_refresh').load('/refresh')
+    }
+</script>
+<body>
+<span id="div_refresh" th:text="${msg}" th:fragment="div"></span>
+
+<button onclick="start()">开始变换</button>
+
+</body>
+</html>
